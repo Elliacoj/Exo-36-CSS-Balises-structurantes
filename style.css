@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 96%;
+    font-family: "roboto mono", sans-serif;
+    background-color: #eeeeee;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#hauthead {
+    display: flex;
+    margin-top: 2%;
+
+}
+
+#hauthead div {
+    width: 1%;
+    background-color: white;
+    padding-top: 1%;
+    border-radius: 45%;
+    margin-right: 0.5%;
+}
+
+#hauthead div:nth-child(4) {
+    flex-grow: 1;
+    border-radius: 20px;
+    margin-left: 2%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: #808080;
+    margin-top: 2%;
+
+}
+
+#logo {
+    background-image: url("placeholder.com-logo3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15%;
+    height: 100px;
+    margin-left: 10%;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+header nav div {
+    color: white;
+    width: 15%;
+    text-align: center;
+    align-self: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    background-color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+}
+
+#gauche {
+    margin-left: 2%;
+    background-color: #eeeeee;
+    width: 34%;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+#droite {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section {
+    width: 100%;
+    background-color: #eeeeee;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+footer {
+    background-color: #808080;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+aside {
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+article {
+    width: 30%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-color: #c6c6c6;
+}
